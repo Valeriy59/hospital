@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hospital/static/css/main.286e8a59.css",
+    "main.js": "/hospital/static/js/main.51728862.js",
+    "index.html": "/hospital/index.html",
+    "main.286e8a59.css.map": "/hospital/static/css/main.286e8a59.css.map",
+    "main.51728862.js.map": "/hospital/static/js/main.51728862.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.286e8a59.css",
+    "static/js/main.51728862.js"
+  ]
+}
