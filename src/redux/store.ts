@@ -1,9 +1,11 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import {employeesSlice} from "../features/employees/employeesSlice";
+import {worklogSlice} from "../features/worklog/worklogSlice";
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    employees: employeesSlice.reducer,
+    worklog: worklogSlice.reducer,
   },
 });
 
@@ -14,4 +16,8 @@ export type AppThunk<ReturnType = void> = ThunkAction<
   RootState,
   unknown,
   Action<string>
->;
+>
+
+// @ts-ignore
+window.store = store // for dev
+

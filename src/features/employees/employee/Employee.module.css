@@ -1,0 +1,18 @@
+table, tbody, th, tr, td
+{
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th {
+    background-color: lightblue;
+}
+table, tr{
+    width: 900px;
+}
+td, th {
+    width: 150px;
+}
+.link {
+    text-decoration: none;
+}
